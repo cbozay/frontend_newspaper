@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  font-size: 11px;
+  padding-left: 25px;
+}
+
+.MAINCONTAINER {
+  display: flex;
+  justify-content: center;
+}
+
+.MainContainer {
+  position: relative;
+  min-width: 40%;
+  max-width: 794px;
+}
+
+.mainContainer {
+  min-width: 794px;
+  max-width: 50%;
+
+  background-color: #fff;
+  border-bottom: 1px solid;
+
+  overflow: hidden;
+  margin: 50px 2px 50px 0;
+}
+
+.top {
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  padding-top: 10px;
+}
+
+.topLeft {
+  width: 150px;
+
+  position: relative;
+  padding-left: 10px;
+}
+
+.topLeft img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.topLeft h4 {
+  font-weight: bolder;
+  position: absolute;
+  z-index: 2;
+  left: 52%;
+  transform: translateX(-50%);
+  padding: 85px 0;
+  width: 100%;
+  text-align: center;
+  border: 1px solid;
+  background-color: #fff;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.topRight {
+  flex: 1;
+
+  overflow: hidden;
+  border-bottom: 1px solid #aaa;
+
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.topRight p {
+  text-align: justify;
+  padding: 0 20px;
+}
+.bottomLeft {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border: 1px solid;
+  border-top-right-radius: 20px;
+}
+
+.bottomLeft p {
+  font-size: 12px;
+}
+
+.bottomLeft h3 {
+  padding: 0 5px;
+}
+
+.skill div {
+  padding-left: 10px;
+  display: flex;
+}
+
+.skill span {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.skill i {
+  font-size: 10px;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+}
+
+.personal i {
+  margin: 6px;
+  margin-right: 12px;
+  width: 10px;
+}
+
+.interest div {
+  padding-left: 10px;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.language div {
+  padding-left: 10px;
+  display: flex;
+}
+
+.b2 {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  padding-left: 5px;
+}
+
+.fontTitle {
+  font-size: 15px !important;
+}
+
+.null-star {
+  color: #fff;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottomRight {
+  flex: 1;
+}
+
+.MainDiv {
+  padding: 5px 0 3px 10px;
+}
+
+.mainDiv {
+  padding: 0 10px;
+}
+
+.introMargin {
+  margin-bottom: 8px;
+}
+
+.exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.bottomRight h4 {
+  margin: 7px 10px;
+}
+
+.bottomRight p {
+  font-size: 13px;
+}
+
+.oneYear {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  height: 30px;
+}
+
+.hospitalMargin {
+  margin-bottom: 7px;
+}
+
+.skl {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+
+  justify-content: space-between;
+}
+
+.skl i {
+  padding-left: 2px;
+}
+
+.skl p {
+  margin-right: 50px;
+  padding-top: 5px;
+}
+
+.pro div {
+  padding-bottom: 3px;
+  margin: 0 10px;
+}
+
+.pro div p {
+  font-size: 11px;
+}
+
+.special p {
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.rightDepartment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ref {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btnMain {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  transition: 0.5s;
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: crimson;
+}
+
+.btn:active {
+  transform: scale(1.05);
+}
+
+#language {
+  position: absolute;
+  right: 110px;
+  top: 15px;
+  border-radius: 5px;
+  border-color: red;
+  border: 1.5px solid red;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 10px;
+}
+
+.main-skills {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.stars {
+  margin-bottom: 24px;
+}
+
+.fa-star,
+.fa-regular {
+  border: 1px solid;
+  margin-top: 0.7px;
+}
+
+.liLast {
+  display: flex;
+}
+
+.li_font_size {
+  font-size: 13.5px;
+}
+
+.not {
+  margin-left: 10px;
+}
+
+.not h2 {
+  border-bottom: 1px solid;
+}

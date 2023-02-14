@@ -1,0 +1,15 @@
+.green-hvr {
+  background-color: black;
+  border: none;
+  width: 60px;
+}
+.green-hvr:hover {
+  background-color: #84f542;
+}
+.green-hvr:active {
+  border: 3px solid #aaa;
+  transition: 0.5s;
+}
+.green-hvr:focus {
+  border: 4px solid #aaa;
+}
