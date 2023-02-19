@@ -1,7 +1,13 @@
-import React from "react";
+import { configureStore } from "@reduxjs/toolkit";
 
-const store = () => {
-  return <div>store</div>;
-};
+import menuTabSlice from "./menuTabSlice";
+import searchSlice from "./searchSlice";
+
+const store = configureStore({
+  reducer: {
+    menuTab: menuTabSlice,
+    searchClicked: searchSlice,
+  },
+});
 
 export default store;

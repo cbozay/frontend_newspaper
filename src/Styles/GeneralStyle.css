@@ -1,15 +1,66 @@
 .green-hvr {
   background-color: black;
-  border: none;
-  width: 60px;
+  border: 4px solid black;
+  width: 65px;
 }
 .green-hvr:hover {
   background-color: #84f542;
+  border: 4px solid #84f542;
+  transition: 0.3s;
 }
 .green-hvr:active {
-  border: 3px solid #aaa;
-  transition: 0.5s;
+  /* border: 3px solid #aaa; */
+  transition: all ease-in-out 0.5s;
 }
 .green-hvr:focus {
   border: 4px solid #aaa;
+  transition: 0.5s;
+}
+
+.btn-hover {
+  transition: all ease-in-out 0.3s;
+}
+
+.btn-hover:hover {
+  background-color: #d3e9b9;
+  transition: all ease-in-out 0.5s;
+}
+
+.btn-active {
+  background-color: #84f542;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+}
+
+.menuLink {
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: all 0.2s linear;
+}
+
+.menuLink:hover {
+  color: black;
+}
+
+.menuLink::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #080808;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.menuLink:hover::after {
+  width: 100%;
+}
+
+.menuLink-active {
+  content: "";
+  width: auto;
+  height: 40px;
+  display: block;
+  background-color: transparent;
+  border: 1px solid;
 }

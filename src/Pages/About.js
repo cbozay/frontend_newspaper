@@ -9,8 +9,9 @@ const About = () => {
           <div className="MainContainer">
             <div className="mainContainer" id="myCv">
               <div className="top">
-                <div className="topLeft">
-                  <h4>ÇAĞATAY BOZAY</h4>
+                <div className="topLeft pt-2">
+                  <h6 className="py-1">ÇAĞATAY BOZAY</h6>
+                  <img className="mt-2" src="Images/picture.jpg" alt="" />
                 </div>
                 <div className="topRight">
                   <div>
@@ -45,7 +46,9 @@ const About = () => {
                   </h3>
                   <hr />
                   <div className="personal">
-                    <i className="fa-solid fa-user-tie" />
+                    <h1>
+                      <i className="fa-solid fa-user-tie  me-5 pb-2" />
+                    </h1>
                     <div>
                       <h4 className="personal-title" id="isim">
                         Name
@@ -54,14 +57,20 @@ const About = () => {
                     </div>
                   </div>
                   <div className="personal">
-                    <i className="fa-solid fa-location-dot" />
+                    <h1>
+                      <i className="fa-solid fa-location-dot me-5 pb-2" />
+                    </h1>
+
                     <div>
                       <h4 id="adres">Address</h4>
                       <p>Ankara/TURKEY</p>
                     </div>
                   </div>
                   <div className="personal">
-                    <i className="fa-solid fa-phone" />
+                    <h1>
+                      <i className="fa-solid fa-phone me-5 pb-2" />
+                    </h1>
+
                     <div>
                       <h4 id="telefon">Phone number</h4>
                       <p>
@@ -70,7 +79,9 @@ const About = () => {
                     </div>
                   </div>
                   <div className="personal">
-                    <i className="fa-solid fa-envelope" />
+                    <h1>
+                      <i className="fa-solid fa-envelope me-5 pb-2" />
+                    </h1>
                     <div>
                       <h4>Email</h4>
                       <p>
@@ -81,7 +92,9 @@ const About = () => {
                     </div>
                   </div>
                   <div className="personal">
-                    <i className="fa-brands fa-linkedin" />
+                    <h1>
+                      <i className="fa-brands fa-linkedin me-5 pb-2" />
+                    </h1>
                     <div>
                       <h4>Linkedin</h4>
                       <p>
@@ -95,7 +108,9 @@ const About = () => {
                     </div>
                   </div>
                   <div className="personal">
-                    <i className="fa-brands fa-square-github" />
+                    <h1>
+                      <i className="fa-brands fa-square-github me-5 pb-2" />
+                    </h1>
                     <div>
                       <h4>Github</h4>
                       <p>
@@ -106,14 +121,18 @@ const About = () => {
                     </div>
                   </div>
                   <div className="personal">
-                    <i className="fa-solid fa-calendar-days" />
+                    <h1>
+                      <i className="fa-solid fa-calendar-days me-5 pb-2" />
+                    </h1>
                     <div>
                       <h4 id="dogumTarihi">Date of birth</h4>
                       <p>10-09-1990</p>
                     </div>
                   </div>
                   <div className="personal">
-                    <i className="fa-solid fa-house-user" />
+                    <h1>
+                      <i className="fa-solid fa-house-user me-5 pb-2" />
+                    </h1>
                     <div>
                       <h4 id="dogumYeri">Place of birth</h4>
                       <p>Gölcük/TURKEY</p>
@@ -126,35 +145,38 @@ const About = () => {
                   <hr />
                   <div className="skill">
                     <div>
-                      <span>
-                        <i className="fa-solid fa-thumbs-up" />
-                      </span>
+                      <h1>
+                        <i className="fa-solid fa-thumbs-up me-4" />
+                      </h1>
+
                       <span>
                         <h5 id="liderlik">Leadership</h5>
                       </span>
                     </div>
                     <div>
-                      <span>
-                        <i className="fa-solid fa-thumbs-up" />
-                      </span>
+                      <h1>
+                        <i className="fa-solid fa-thumbs-up me-4" />
+                      </h1>
+
                       <span>
                         <h5 id="musteri">Customer Relations</h5>
                       </span>
                       <span />
                     </div>
                     <div>
-                      <span>
-                        <i className="fa-solid fa-thumbs-up" />
-                      </span>
+                      <h1>
+                        <i className="fa-solid fa-thumbs-up me-4" />
+                      </h1>
+
                       <span>
                         <h5 id="envanter">Inventory</h5>
                       </span>
                       <span />
                     </div>
                     <div>
-                      <span>
-                        <i className="fa-solid fa-thumbs-up" />
-                      </span>
+                      <h1>
+                        <i className="fa-solid fa-thumbs-up me-4" />
+                      </h1>
                       <span>
                         <h5 id="finans">Finance</h5>
                       </span>
@@ -189,7 +211,7 @@ const About = () => {
                     <div className="lng">
                       <h5 id="turkce">Turkish</h5>
                     </div>
-                    <div>
+                    <div className="pb-1">
                       <span>
                         <i className="fa-solid fa-star" />
                       </span>
@@ -211,7 +233,7 @@ const About = () => {
                     <div className="lng">
                       <h5 id="ingilizce">English</h5>
                     </div>
-                    <div>
+                    <div className="pb-1">
                       <span>
                         <i className="fa-solid fa-star" />
                       </span>
@@ -233,7 +255,7 @@ const About = () => {
                     <div className="lng">
                       <h5 id="almanca">German</h5>
                     </div>
-                    <div>
+                    <div className="pb-1">
                       <span>
                         <i className="fa-solid fa-star" />
                       </span>
@@ -276,11 +298,11 @@ const About = () => {
                           </p>
                         </b>
                       </u>
-                      <h5>
+                      <h6>
                         <i id="Ankara">Udemig Company, Ankara, TURKEY</i>
-                      </h5>
+                      </h6>
                     </div>
-                    <div className="oneYear">
+                    <div>
                       <b>
                         <p id="One-year">One-Year Experience (Remote)</p>
                       </b>
@@ -352,6 +374,55 @@ const About = () => {
                       </ul>
                     </div>
                   </div>
+
+                  <hr style={{ width: "95%", margin: "3px auto" }} />
+                  <u>
+                    <h3 className="MainDiv" id="referanslar">
+                      Projects
+                    </h3>
+                  </u>
+                  <div className="exp mainDiv">
+                    <div>
+                      <u>
+                        <b className="d-flex">
+                          <p className="fontTitle" id="React">
+                            Hospital Automation
+                          </p>
+                          <a
+                            target="_blank"
+                            href="https://github.com/cbozay/hospital"
+                          >
+                            <i className="fa-solid fa-arrow-up-right-from-square ms-1" />
+                          </a>
+                        </b>
+                      </u>
+                    </div>
+                  </div>
+                  <div className="pro mainDiv">
+                    <div>
+                      <ul>
+                        <li className="li_font_size" id="experience-1">
+                          The most striking aspect of system is existance of an
+                          automatic control mecanism notifying that the
+                          appointment time has come for any patient whose
+                          appointment has come. When it is five minutes left for
+                          apppointment time, appointment data belonging to the
+                          patient turn into yellow color. If appointment time
+                          has passed, automatic control mecanism carry
+                          appointment data of the patient to allocated field for
+                          "Passed Appointments".
+                        </li>
+                        <li className="li_font_size" id="experience-2">
+                          While React, Redux, Material UI ve Boostrap libraries
+                          have been used in Frontend section of construction
+                          stage, JSON Rest Api has been used in Backend section.
+                          In all stages, Javascript ES6 standarts have been
+                          used.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
                   <hr style={{ width: "95%", margin: "3px auto" }} />
                   <u>
                     <h3 className="MainDiv" id="egitim">
@@ -611,15 +682,6 @@ const About = () => {
                           <i className="fa-regular fa-star" />
                         </div>
                       </div>
-                    </div>
-                    <br />
-                    <div className="not">
-                      <h2>NOT:</h2>
-                      <h5>
-                        Api kullanım kotası sınırlı olduğundan ve süre
-                        kısıtlılığından dolayı, Api den veri çekme ve bunlara
-                        css giydirme tam anlamıyla olmadı.
-                      </h5>
                     </div>
                   </div>
                 </div>

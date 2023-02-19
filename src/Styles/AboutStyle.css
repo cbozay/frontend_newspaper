@@ -57,13 +57,13 @@ ul {
   border: 1px solid;
 }
 
-.topLeft h4 {
+.topLeft h6 {
   font-weight: bolder;
   position: absolute;
   z-index: 2;
   left: 52%;
   transform: translateX(-50%);
-  padding: 85px 0;
+
   width: 100%;
   text-align: center;
   border: 1px solid;
@@ -112,10 +112,6 @@ ul {
   display: flex;
   align-items: center;
   margin-right: 5px;
-}
-
-.skill i {
-  font-size: 10px;
 }
 
 .personal {
@@ -301,7 +297,7 @@ ul {
 .row {
   display: flex;
   align-items: center;
-  margin: 0 0 0 10px;
+  padding-left: 20px;
 }
 
 .main-skills {
